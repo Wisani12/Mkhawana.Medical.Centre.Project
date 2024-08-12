@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mkhawana Medical Centre Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mkhawana Medical Centre Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <!-- Add images here -->
+            <figure>
+                <img src="images/photo1.jpg" alt="Medical Center Image 1">
+                <figcaption>Medical Center - Image 1</figcaption>
+            </figure>
+            <figure>
+                <img src="images/photo2.jpg" alt="Medical Center Image 2">
+                <figcaption>Medical Center - Image 2</figcaption>
+            </figure>
+            <!-- Add more images as needed -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mkhawana Medical Centre</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

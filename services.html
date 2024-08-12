@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mkhawana Medical Centre Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: url('IMG-20240730-WA0016.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+            border-bottom: 2px solid #003366; /* Dark blue border */
+        }
+
+        header .logo {
+            max-width: 200px; /* Increased size */
+            margin: 0 auto;
+            display: block;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 51, 102, 0.5); /* Semi-transparent dark blue overlay */
+            z-index: 1;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        header .brand-name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+
+        header .brand-name .highlight {
+            color: #E53935; /* Red color for the "M" */
+            font-size: 3rem;
+        }
+
+        header .brand-name span {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #003366; /* Dark blue background */
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background: #002244; /* Darker blue on hover */
+            border-radius: 0.5rem;
+        }
+
+        /* Main Section */
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #003366; /* Dark blue color */
+            font-size: 2rem;
+            border-bottom: 2px solid #003366; /* Dark blue underline */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .service {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .service img {
+            max-width: 150px;
+            border-radius: 0.5rem;
+            object-fit: cover;
+        }
+
+        .service h3 {
+            color: #E53935; /* Red color */
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem;
+        }
+
+        .service p {
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366; /* Dark blue background */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul li a {
+                padding: 0.75rem 1rem;
+            }
+
+            .service {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .service img {
+                max-width: 100%;
+                margin-bottom: 1rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .service h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .service {
+                padding: 1rem;
+            }
+
+            .service h3 {
+                font-size: 1.125rem;
+            }
+
+            nav ul {
+                padding: 0;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 0;
+            }
+
+            nav ul li a {
+                padding: 0.75rem;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WhatsApp_Image_2024-08-08_at_15.41.45_ed38275e-removebg-preview.png" alt="Mkhawana Medical Centre Logo" class="logo">
+        <h1 class="brand-name">
+            <span class="highlight"></span>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="IMG-20240730-WA0029.jpg" alt="General Medical Treatment">
+                <div>
+                    <h3>General Medical Treatment</h3>
+                    <p>Our general consultations include a comprehensive check-up where we assess your overall health and provide personalized advice.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0036.jpg" alt="Minor Surgical Procedures">
+                <div>
+                    <h3>Minor Surgical Procedures</h3>
+                    <p>Minor surgical procedures are small-scale operations that typically involve minimal risk and require only local anesthesia.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0012.jpg" alt="IV Drip Clinic">
+                <div>
+                    <h3>IV Drip Clinic</h3>
+                    <p>An IV drip clinic offers intravenous infusions of fluids, vitamins, and medications to boost hydration, nutrition, and skin glow.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0018.jpg" alt="HIV Management Centre">
+                <div>
+                    <h3>HIV Management Centre of Excellence</h3>
+                    <p>An HIV management center specializes in the comprehensive care and treatment of individuals living with HIV, focusing on antiretroviral therapy, monitoring, and support for overall health.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0025.jpg" alt="Hypertension">
+                <div>
+                    <h3>Hypertension</h3>
+                    <p>Our centre offers expert care and personalized treatment to effectively manage high blood pressure and improve your overall health.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0015.jpg" alt="Diabetes Mellitus">
+                <div>
+                    <h3>Diabetes Mellitus</h3>
+                    <p>At our Medical Centre, we manage Diabetes Mellitus through personalized treatment plans, nutritional guidance, regular monitoring, lifestyle support, and comprehensive education to help you effectively control your blood sugar levels and improve your overall health.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0029.jpg" alt="Men's Health">
+                <div>
+                    <h3>Men's Health</h3>
+                    <p>Our Medical Centre offers specialized care for men's health, focusing on preventive measures, treatment of common conditions, and overall well-being to enhance quality of life and address specific health concerns.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0033.jpg" alt="Chronic Disease Management">
+                <div>
+                    <h3>Chronic Disease Management Centre</h3>
+                    <p>Our Chronic Disease Management Centre provides comprehensive care to manage long-term conditions through personalized treatment plans, regular monitoring, and support to improve quality of life and health outcomes.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0039.jpg" alt="Travel Clinic & Yellow Fever Vaccines">
+                <div>
+                    <h3>Travel Clinic & Yellow Fever Vaccines</h3>
+                    <p>Our Travel Clinic offers expert advice and vaccinations, including Yellow Fever, to ensure you stay healthy and safe during your travels.</p>
+                </div>
+            </div>
+
+            <div class="service">
+                <img src="IMG-20240730-WA0019.jpg" alt="Specialist Consultations">
+                <div>
+                    <h3>Dietician</h3>
+                    <p>Our centre offers expert guidance and personalized nutrition plans to help you achieve optimal health and manage your dietary needs effectively.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0019.jpg" alt="Specialist Consultations">
+                <div>
+                    <h3>Podiatrist</h3>
+                    <p>Our centre provides specialized care and tailored treatment plans to address foot and ankle issues, ensuring improved mobility and overall comfort.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0019.jpg" alt="Specialist Consultations">
+                <div>
+                    <h3>Psychologist</h3>
+                    <p>Our centre offers expert psychological support and customized therapy to help manage mental health challenges and enhance overall well-being.</p>
+                </div>
+            </div>
+            <div class="service">
+                <img src="IMG-20240730-WA0019.jpg" alt="Specialist Consultations">
+                <div>
+                    <h3>Visiting Specialist</h3>
+                    <p>
+                        <strong>Gynaecologist:</strong> Our centre provides specialized gynecological care and personalized consultations to address women's health concerns and support overall reproductive well-being.<br>
+
+                        <strong>Physician:</strong> Our centre offers expert medical evaluations and tailored treatment plans from experienced physicians to manage a wide range of health conditions and optimize your health.<br>
+
+                        <strong>Surgeon:</strong> Our centre delivers skilled surgical interventions and personalized care plans to address various surgical needs and support effective recovery and health outcomes.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mkhawana Medical Centre</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mkhawana Medical Centre</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+        }
+
+        header {
+            background: url('IMG-20240730-WA0016.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+            border-bottom: 2px solid #003366; /* Dark blue border */
+        }
+
+        header .logo {
+            max-width: 200px; /* Increased size */
+            margin: 0 auto;
+            display: block;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 51, 102, 0.5); /* Semi-transparent dark blue overlay */
+            z-index: 1;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        header .brand-name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+        }
+
+        header .brand-name .highlight {
+            color: #E53935; /* Red color for the "M" */
+            font-size: 3rem;
+        }
+
+        header .brand-name span {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background: #003366; /* Dark blue background */
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background: #002244; /* Darker blue on hover */
+            border-radius: 0.5rem;
+        }
+
+        /* Main Section */
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background: url('background-image.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        h2 {
+            color: #003366; /* Dark blue color */
+            font-size: 2rem;
+            border-bottom: 2px solid #003366; /* Dark blue underline */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-content {
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-content img {
+            max-width: 100%;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-content p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: #003366; /* Dark blue background */
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul li a {
+                padding: 0.75rem 1rem;
+            }
+
+            .about-content img {
+                max-width: 100%;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            .about-content {
+                padding: 1rem;
+            }
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            nav ul {
+                padding: 0;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 0;
+            }
+
+            nav ul li a {
+                padding: 0.75rem;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WhatsApp_Image_2024-08-08_at_15.41.45_ed38275e-removebg-preview.png" alt="Mkhawana Medical Centre Logo" class="logo">
+        <h1 class="brand-name">
+            <span class="highlight"></span>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About the Doctor</h2>
+            <div class="about-content">
+                <img src="WhatsApp_Image_2024-08-08_at_15.41.45_ed38275e-removebg-preview.png" alt="Medical Centre Image">
+                <p>Dr Courage Tiyiselani Mkhawana
+Dr Mkhawana is a registered Independent Medical Practitioner with the Health Professions Council of South Africa (HPCSA). He has enormous experience and knowledge in the field of Emergency Medicine, General Practice, HIV Management, Occupational Medicine, and Infectious Diseases Management, including Covid-19. This experience was gained through practice and continued studies. He worked in the capacity of Emergency Medical Officer at various private hospitals.</p>
+                <p>Dr Mkhawana is seasoned in both clinical and administrative skills having worked in addition, at Government Hospitals. He worked as a Medical Officer at Dr Yusuf Daddo Hospital situated in the West Rand, Gauteng where he managed and treated COVID-19 patients during the peak stages of the pandemic in South Africa.</p>
+                <p>He was appointed as a Resident Medical Officer at Netcare Pinehaven Hospital charged with responsibilities of managing, treating patients at ICU and COVID wards particularly during the night.</p>
+                <p>He manages and operates three travel clinics in Gauteng and has a license to issue Yellow Fever vaccinations and other infectious diseases.</p>
+                <p>Dr Mkhawana completed a Bachelor of Medicine and Bachelor of Surgery (MBChB) from the University of Limpopo (now Sefako Makgatho Medical University) in 2006 and then completed the requirement for community service in 2009. In 2010, he opened a family practice at Protea Glen in Soweto where he renders service as a General Practitioner to date.</p>
+                <p>Dr Mkhawana is a registered Occupational Medicine Practitioner and a sole director of Timbavati Medical Services. In 2011, he completed a Post Graduate Diploma in Occupational Medicine & Health followed by a Post Graduate Diploma in Tropical Medicine & Health in 2013 from University of Pretoria. He completed a certificate in Travel Medicine from Wits University in association with South African Society of Travel Medicine.</p>
+                <p>He is also a Certified Independent Medical Examiner (CIME) (American Board Of Independent Medical Examiners), he has a valid ACLS (Advanced Cardiovascular Life Support) & PALS (Advanced Paediatric Life Support), ATLS (Advanced Trauma Life Support), EMATT (Emergency Medicine Approach To Trauma). He holds a certificate in Essentials of Entrepreneurship from Harvard Business School. He has a certificate in Introductory Good Clinical Practice, certificate in Basics of Project Management (Unisa), Certificate in Strategic Management (Unisa).</p>
+                <p>His interests include preventative medicine, workplace healthcare, and construction. He is the host and organizer of the annual Soweto wellness race which focuses on raising awareness and promoting a healthy lifestyle. Additionally, he operates and manages a weight loss clinic.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <p>&copy; 2024 Mkhawana Medical Centre</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

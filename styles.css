@@ -1,0 +1,89 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333; /* Default text color */
+}
+
+header {
+    background: #fff; /* White background for header */
+    color: red; /* Red text color for header */
+    padding: 20px 0; /* Adjust padding as needed */
+    text-align: center;
+    border-bottom: 2px solid #ddd; /* Optional: Light gray border to define header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em; /* Adjust font size as needed */
+}
+/* styles.css */
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 5px;
+    color: red; /* Red text color for captions */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
